@@ -3,16 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>sawasige</title>
+  <title>sawasige — Apps</title>
+  <meta name="description" content="sawasige が開発した iOS / macOS アプリの一覧。RunRun・Clipnyx・Seekthea。">
+  <meta property="og:title" content="sawasige — Apps">
+  <meta property="og:description" content="sawasige が開発した iOS / macOS アプリの一覧。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sawasige.github.io/">
+  <link rel="icon" href="assets/runrun.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
+  <header class="hero">
     <h1>sawasige</h1>
-    <p>Welcome to my page.</p>
-    <ul class="links">
-      <li><a href="https://github.com/sawasige">GitHub</a></li>
+    <p class="tagline">iOS / macOS アプリをつくっています。</p>
+  </header>
+
+  <main>
+    <ul class="apps">
+      <li class="app-card">
+        <a class="app-link" href="https://sawasige.github.io/runrun-ios/">
+          <img class="app-icon" src="assets/runrun.png" alt="RunRun アイコン" width="80" height="80" loading="lazy">
+          <div class="app-body">
+            <h2 class="app-name">RunRun ランニングノート <span class="badge">iOS</span></h2>
+            <p class="app-desc">いつものアプリで走って、RunRun で振り返ろう。Apple Watch・Strava・Nike Run Club の記録をヘルスケア経由で自動同期し、美しく可視化します。</p>
+          </div>
+        </a>
+        <div class="app-actions">
+          <a class="btn" href="https://sawasige.github.io/runrun-ios/">紹介ページ</a>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6757327127">App Store</a>
+        </div>
+      </li>
+
+      <li class="app-card">
+        <a class="app-link" href="https://sawasige.github.io/clipnyx/">
+          <img class="app-icon" src="assets/clipnyx.png" alt="Clipnyx アイコン" width="80" height="80" loading="lazy">
+          <div class="app-body">
+            <h2 class="app-name">Clipnyx <span class="badge">macOS</span></h2>
+            <p class="app-desc">メニューバーに常駐するクリップボード履歴マネージャー。コピー履歴を自動保存し、ホットキーで瞬時にアクセスできます。</p>
+          </div>
+        </a>
+        <div class="app-actions">
+          <a class="btn" href="https://sawasige.github.io/clipnyx/">紹介ページ</a>
+          <a class="btn btn-primary" href="https://apps.apple.com/jp/app/clipnyx/id6759652985">App Store</a>
+          <a class="btn" href="https://github.com/sawasige/clipnyx/releases/latest/download/Clipnyx.dmg">DMG</a>
+        </div>
+      </li>
+
+      <li class="app-card">
+        <a class="app-link" href="https://sawasige.github.io/seekthea/">
+          <img class="app-icon" src="assets/seekthea.png" alt="Seekthea アイコン" width="80" height="80" loading="lazy">
+          <div class="app-body">
+            <h2 class="app-name">Seekthea <span class="badge">iOS</span></h2>
+            <p class="app-desc">ウェブ全体のトレンドを見通して、探し出すニュースアプリ。ニュース・テック・ソーシャルの話題を RSS で収集し、Apple Intelligence が AI 要約します。</p>
+          </div>
+        </a>
+        <div class="app-actions">
+          <a class="btn" href="https://sawasige.github.io/seekthea/">紹介ページ</a>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6762122200">App Store</a>
+        </div>
+      </li>
     </ul>
   </main>
+
+  <footer class="footer">
+    <a href="https://github.com/sawasige">GitHub</a>
+  </footer>
 </body>
 </html>
