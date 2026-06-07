@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>sawasige — Apps</title>
+  <title data-ja="sawasige — アプリ" data-en="sawasige — Apps">sawasige — アプリ</title>
   <meta name="description" content="sawasige が開発した Apple プラットフォーム向けアプリの一覧。RunRun・Clipnyx・Seekthea。">
   <meta property="og:title" content="sawasige — Apps">
   <meta property="og:description" content="sawasige が開発した Apple プラットフォーム向けアプリの一覧。">
@@ -13,10 +13,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <button class="lang-toggle" onclick="toggleLang()" aria-label="Switch language" data-ja="English" data-en="日本語">English</button>
+
   <header class="hero">
     <img class="avatar" src="assets/avatar.png" alt="sawasige のプロフィール画像" width="120" height="120">
     <h1>sawasige</h1>
-    <p class="tagline">Apple プラットフォーム向けのアプリをつくっています。</p>
+    <p class="tagline" data-ja="Apple プラットフォーム向けのアプリをつくっています。" data-en="I build apps for Apple platforms.">Apple プラットフォーム向けのアプリをつくっています。</p>
   </header>
 
   <main>
@@ -28,12 +30,12 @@
             <img class="app-icon" src="assets/runrun.png" alt="RunRun アイコン" width="80" height="80" loading="lazy">
           </picture>
           <div class="app-body">
-            <h2 class="app-name">RunRun ランニングノート <span class="badge">iOS</span></h2>
-            <p class="app-desc">いつものアプリで走って、RunRun で振り返ろう。Apple Watch・Strava・Nike Run Club の記録をヘルスケア経由で自動同期し、美しく可視化します。</p>
+            <h2 class="app-name"><span data-ja="RunRun ランニングノート" data-en="RunRun - Running Note">RunRun ランニングノート</span> <span class="badge">iOS</span></h2>
+            <p class="app-desc" data-ja="いつものアプリで走って、RunRun で振り返ろう。Apple Watch・Strava・Nike Run Club の記録をヘルスケア経由で自動同期し、美しく可視化します。" data-en="Just run with your usual app and look back with RunRun. It automatically syncs your records from Apple Watch, Strava, and Nike Run Club via Health and visualizes them beautifully.">いつものアプリで走って、RunRun で振り返ろう。Apple Watch・Strava・Nike Run Club の記録をヘルスケア経由で自動同期し、美しく可視化します。</p>
           </div>
         </a>
         <div class="app-actions">
-          <a class="btn" href="https://sawasige.github.io/runrun-ios/">紹介ページ</a>
+          <a class="btn" href="https://sawasige.github.io/runrun-ios/" data-ja="紹介ページ" data-en="Details">紹介ページ</a>
           <a class="btn btn-primary" href="https://apps.apple.com/app/id6757327127">App Store</a>
         </div>
       </li>
@@ -46,11 +48,11 @@
           </picture>
           <div class="app-body">
             <h2 class="app-name">Clipnyx <span class="badge">macOS</span></h2>
-            <p class="app-desc">メニューバーに常駐するクリップボード履歴マネージャー。コピー履歴を自動保存し、ホットキーで瞬時にアクセスできます。</p>
+            <p class="app-desc" data-ja="メニューバーに常駐するクリップボード履歴マネージャー。コピー履歴を自動保存し、ホットキーで瞬時にアクセスできます。" data-en="A clipboard history manager that lives in your menu bar. It automatically saves your copy history so you can access it instantly with a hotkey.">メニューバーに常駐するクリップボード履歴マネージャー。コピー履歴を自動保存し、ホットキーで瞬時にアクセスできます。</p>
           </div>
         </a>
         <div class="app-actions">
-          <a class="btn" href="https://sawasige.github.io/clipnyx/">紹介ページ</a>
+          <a class="btn" href="https://sawasige.github.io/clipnyx/" data-ja="紹介ページ" data-en="Details">紹介ページ</a>
           <a class="btn btn-primary" href="https://apps.apple.com/jp/app/clipnyx/id6759652985">App Store</a>
           <a class="btn" href="https://github.com/sawasige/clipnyx/releases/latest/download/Clipnyx.dmg">DMG</a>
         </div>
@@ -64,11 +66,11 @@
           </picture>
           <div class="app-body">
             <h2 class="app-name">Seekthea <span class="badge">iOS</span> <span class="badge">iPadOS</span> <span class="badge">macOS</span> <span class="badge">visionOS</span></h2>
-            <p class="app-desc">ウェブ全体のトレンドを見通して、探し出すニュースアプリ。ニュース・テック・ソーシャルの話題を RSS で収集し、Apple Intelligence が AI 要約します。</p>
+            <p class="app-desc" data-ja="ウェブ全体のトレンドを見通して、探し出すニュースアプリ。ニュース・テック・ソーシャルの話題を RSS で収集し、Apple Intelligence が AI 要約します。" data-en="A news app that lets you see across the whole web and seek out what matters. It gathers news, tech, and social trends via RSS, with AI summaries powered by Apple Intelligence.">ウェブ全体のトレンドを見通して、探し出すニュースアプリ。ニュース・テック・ソーシャルの話題を RSS で収集し、Apple Intelligence が AI 要約します。</p>
           </div>
         </a>
         <div class="app-actions">
-          <a class="btn" href="https://sawasige.github.io/seekthea/">紹介ページ</a>
+          <a class="btn" href="https://sawasige.github.io/seekthea/" data-ja="紹介ページ" data-en="Details">紹介ページ</a>
           <a class="btn btn-primary" href="https://apps.apple.com/app/id6762122200">App Store</a>
         </div>
       </li>
@@ -78,5 +80,24 @@
   <footer class="footer">
     <a href="https://github.com/sawasige">GitHub</a>
   </footer>
+
+  <script>
+    function applyLang(lang) {
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-' + lang + ']').forEach(function (el) {
+        el.innerHTML = el.getAttribute('data-' + lang);
+      });
+      try { localStorage.setItem('lang', lang); } catch (e) {}
+    }
+    function toggleLang() {
+      applyLang(document.documentElement.lang === 'ja' ? 'en' : 'ja');
+    }
+    (function () {
+      var saved;
+      try { saved = localStorage.getItem('lang'); } catch (e) {}
+      var lang = saved || ((navigator.language || 'ja').toLowerCase().indexOf('ja') === 0 ? 'ja' : 'en');
+      applyLang(lang);
+    })();
+  </script>
 </body>
 </html>
