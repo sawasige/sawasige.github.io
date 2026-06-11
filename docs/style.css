@@ -64,7 +64,7 @@ body {
   display: inline-block;
   border-radius: 50%;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.18);
 }
 
 .avatar {
@@ -83,15 +83,15 @@ body {
   border-radius: 50%;
   pointer-events: none;
   background: linear-gradient(
-    180deg,
+    135deg,
     rgba(255, 255, 255, 0.38),
     rgba(255, 255, 255, 0.12) 35%,
     rgba(255, 255, 255, 0) 55%,
     rgba(0, 0, 0, 0.08) 100%
   );
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.55),
-    inset 0 -1px 1px rgba(255, 255, 255, 0.25),
+    inset 1px 1px 1px rgba(255, 255, 255, 0.55),
+    inset -1px -1px 1px rgba(255, 255, 255, 0.25),
     inset 0 0 1px 1px rgba(255, 255, 255, 0.18);
 }
 
