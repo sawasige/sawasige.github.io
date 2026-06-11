@@ -59,14 +59,46 @@ body {
   padding: 4rem 1.5rem 2rem;
 }
 
+.avatar-wrap {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.18);
+}
+
 .avatar {
+  display: block;
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--card);
-  border: 1px solid var(--border);
-  margin-bottom: 1rem;
+}
+
+.avatar-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      90% 55% at 80% 102%,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0) 60%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.38),
+      rgba(255, 255, 255, 0.12) 35%,
+      rgba(255, 255, 255, 0) 55%,
+      rgba(0, 0, 0, 0.08) 100%
+    );
+  box-shadow:
+    inset 1px 1px 1px rgba(255, 255, 255, 0.55),
+    inset -2px -2px 3px rgba(255, 255, 255, 0.4),
+    inset 0 0 1px 1px rgba(255, 255, 255, 0.12);
 }
 
 .hero h1 {
