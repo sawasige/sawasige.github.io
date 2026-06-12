@@ -143,15 +143,15 @@ main {
   background-image: var(--hero);
   background-size: cover;
   background-position: center;
-  filter: blur(28px) saturate(1.5);
-  transform: scale(1.4);
-  opacity: 0.14;
+  filter: blur(4px) saturate(1.1);
+  transform: scale(1.05);
+  opacity: 0.3;
   pointer-events: none;
 }
 
 @media (prefers-color-scheme: dark) {
   .app-card::before {
-    opacity: 0.2;
+    opacity: 0.35;
   }
 }
 
